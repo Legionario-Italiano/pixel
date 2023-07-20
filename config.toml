@@ -1,0 +1,26 @@
+ignore_colors = [
+	[0, 0, 0, 0],
+	# [0, 0, 0, 255], # filter all black
+]
+
+# priority: higher number = higher chance of being placed
+
+[versions]
+"browser" = 20
+"python" = 3
+"nodejs" = 1
+
+[priorities]
+"0" = 0
+"1" = 1
+"2" = 5
+"3" = 10
+
+
+[[structure]]
+name = "italy"
+file = "images/italy.png"
+startx = 275
+starty = -40
+priority = 3
+
